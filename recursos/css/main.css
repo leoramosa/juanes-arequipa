@@ -6158,6 +6158,9 @@ body > .jcf-select-drop.jcf-drop-flipped {
   .img-float img {
     width: 75%;
   }
+  .img-floattwo img {
+    width: 55%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .t-day.two.mobile {
@@ -6176,6 +6179,9 @@ body > .jcf-select-drop.jcf-drop-flipped {
   }
 }
 @media only screen and (max-width: 768px) {
+  .img-floattwo img {
+    width: 45%;
+  }
   .img-float {
     padding-right: 2%;
   }
@@ -6270,7 +6276,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
     min-height: 40.5px;
   }
   .t-divSector {
-    height: 80px;
+    height: 63px;
   }
   .tarifa-content.three {
     padding: 5px 0px;
