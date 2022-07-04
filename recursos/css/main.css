@@ -55,21 +55,21 @@
   padding-top: 53px;
 }
 .tarifa-content {
-  border: 2px #024f79 dashed;
+  border: 2px #ffffff dashed;
   border-radius: 10px;
   background-color: #024f7916;
   padding: 5px 10px;
 }
 .tarifa-content.two {
   margin-left: 10px;
-  border: 2px #333333 dashed;
+  border: 2px #ffffff dashed;
   border-radius: 10px;
   background-color: #0f10100b;
   padding: 5px 10px;
 }
 .tarifa-content.three {
   margin-left: 10px;
-  border: 2px #000000 dashed;
+  border: 2px #ffffff dashed;
   border-radius: 10px;
   background-color: #0f10100b;
 
@@ -77,7 +77,7 @@
 }
 .tarifa-content.two {
   margin-left: 10px;
-  border: 2px #333333 dashed;
+  border: 2px #ffffff dashed;
   border-radius: 10px;
   background-color: #0f10100b;
   padding: 5px 10px;
@@ -120,7 +120,7 @@
   text-align: center;
 }
 .t-div.four {
-  color: rgb(8, 8, 8);
+  color: #ffffff;
   background: transparent;
   font-family: "Jost", sans-serif;
   font-weight: 700;
@@ -189,7 +189,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  color: #030303;
+  color: #ffffff;
   font-size: 21px;
 }
 .t-divOne {
@@ -217,11 +217,11 @@
 .t-sector_content {
   width: 100%;
   display: flex;
-  border: 3px solid black;
+  border: 3px solid #ffffff;
   font-family: "Jost", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin: 8px 0;
   min-height: 57.5px;
 }
@@ -248,7 +248,7 @@
 .sector-color {
   border-top: 0;
   border-bottom: 0;
-  border-left: 4px solid rgb(0, 0, 0);
+  border-left: 4px solid #ffffff;
   border-right: 0;
   width: 100%;
   transform-origin: bottom;
@@ -742,6 +742,7 @@
 
 .legales {
   font-weight: 100 !important;
+  color: white;
 }
 
 .logo_interbank {
@@ -783,8 +784,8 @@
 .covid {
   font-size: 14px;
   text-align: justify;
-  border: 1px solid #000000;
-  color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   padding: 20px 20px 5px;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -833,7 +834,7 @@ textarea {
 }
 
 .c_comprar {
-  color: #de1714;
+  color: #ffffff;
   padding-right: 58px;
 }
 
@@ -1278,7 +1279,7 @@ textarea {
 /*menu*/
 
 .content-description span {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .form-concert {
@@ -6108,6 +6109,14 @@ body > .jcf-select-drop.jcf-drop-flipped {
   }
 }
 
+@media only screen and (max-width: 1450px) {
+  .img-floattwo img {
+    width: 80%;
+  }
+  .img-float img {
+    width: 70%;
+  }
+}
 @media only screen and (max-width: 1350px) {
   .sector-text {
     font-size: 22px;
@@ -6156,10 +6165,10 @@ body > .jcf-select-drop.jcf-drop-flipped {
     padding-right: 2%;
   }
   .img-float img {
-    width: 75%;
+    width: 55%;
   }
   .img-floattwo img {
-    width: 55%;
+    width: 45%;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -6189,7 +6198,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
     font-size: 10px;
   }
   .img-float img {
-    width: 50%;
+    width: 35%;
   }
   .t-day.desktop {
     display: none;
@@ -6301,6 +6310,6 @@ body > .jcf-select-drop.jcf-drop-flipped {
     padding-right: 5%;
   }
   .img-float img {
-    width: 40% !important;
+    width: 25% !important;
   }
 }
