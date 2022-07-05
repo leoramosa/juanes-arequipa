@@ -29,6 +29,10 @@
 /* style hover */
 
 /* new style 2022 */
+.logo-footer.otrodos {
+  padding-top: 70px;
+}
+
 .btn-comprar {
   background-image: -webkit-linear-gradient(
     190deg,
@@ -553,6 +557,14 @@
   padding-left: 5%;
   padding-top: 2%;
   text-align: left;
+}
+.img-floatthree {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-left: 5%;
+  padding-top: 2%;
+  text-align: right;
 }
 .footer-bebida {
   background: url("../images/back-footer.png") center center no-repeat;
@@ -6127,6 +6139,9 @@ body > .jcf-select-drop.jcf-drop-flipped {
   .sector-text.bbva {
     font-size: 22px;
   }
+  .img-floatthree img {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 1250px) {
   .sector-text {
@@ -6170,6 +6185,14 @@ body > .jcf-select-drop.jcf-drop-flipped {
   .img-floattwo img {
     width: 45%;
   }
+  .img-floatthree img {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .img-floatthree img {
+    width: 55%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .t-day.two.mobile {
@@ -6182,12 +6205,24 @@ body > .jcf-select-drop.jcf-drop-flipped {
     display: none;
   }
 }
+
 @media only screen and (max-width: 810px) {
   .sector-text.bbva {
     font-size: 15px;
   }
+  .img-floatthree img {
+    width: 35%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .logo-footer.otrodos.mobile {
+    display: none;
+  }
 }
 @media only screen and (max-width: 768px) {
+  .logo-footer.otrodos.desktop {
+    display: none;
+  }
   .img-floattwo img {
     width: 45%;
   }
